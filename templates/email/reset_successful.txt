@@ -1,0 +1,6 @@
+Dear {{ user }},
+
+Your password is reset
+
+Sincerely,
+Ekatra

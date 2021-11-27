@@ -1,0 +1,9 @@
+version: "3.8.6"
+
+services:
+  myapi:
+    build: .
+    container_name: myapi
+    restart: always
+    ports:
+      - "80:80"

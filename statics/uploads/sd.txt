@@ -1,0 +1,13 @@
+ssh -i "ekatra-ec2-demo-instance.pem" ubuntu@3.7.76.243
+
+sudo docker build -t ekatraimage .
+sudo docker run -d --name myapi -p 80:80 ekatraimage
+
+
+
+
+*****
+In case you get a conflict
+sudo docker ps -a
+sudo docker rm -f <CONTAINER ID>
+*****
