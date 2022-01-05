@@ -24,7 +24,7 @@ git remote add upstream https://github.com/vruksheco/ekatraone-backend.git
 **4.** Navigate to the new project directory:
 
 ```bash
-cd ekatraone
+cd ekatraone-backend
 ```
 
 **5.** Create a new branch:
